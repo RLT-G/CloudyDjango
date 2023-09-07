@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CloudyMotion | Store</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="images/logo/favicon.png" type="image/png">
+	<link media="screen" onload='if(media!="all") media="all"' rel="stylesheet" href="style/store.css">
+</head>
+<body>
+	<section class="main df">
+		<button class="main__back">
+			<svg width="22" height="40" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.58399 21.4276L18.5524 39.4095C19.3408 40.1968 20.6182 40.1968 21.4087 39.4095C22.1971 38.6222 22.1971 37.3434 21.4087 36.5561L4.8655 20.001L21.4067 3.44586C22.1951 2.65856 22.1951 1.37977 21.4067 0.590478C20.6182 -0.196826 19.3388 -0.196826 18.5504 0.590478L0.581998 18.5722C-0.194331 19.3514 -0.194331 20.6503 0.58399 21.4276Z" fill="#1B171E"/></svg>
+		</button>
+		<div class="main__content">
+			<h1 class="main__title">Coming Soon</h1>
+			<div class="main__subtitle">Please be quet, the developer is making this page</div>
+		</div>
+	</section>
+	<script>
+		document.querySelector(".main__back").addEventListener("click", function(){
+			window.history.back();
+		}, {once: true});
+	</script>
+</body>
+</html>

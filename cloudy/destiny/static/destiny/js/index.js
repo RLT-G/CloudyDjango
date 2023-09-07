@@ -9123,6 +9123,7 @@ a.forEach(function (e) {
         (document.querySelector(
             ".review__list"
         ).innerHTML += `<div class="review__audio-item">\n\t\t<div class="audio musitem df" data-listen="${t}" data-index="${r}">\n\t\t\t<div class="audio__preview">\n\t\t\t\t<div class="audio__preview-background bgi"></div>\n\t\t\t\t<span class="icon-play"></span>\n\t\t\t\t<span class="icon-pause"></span>\n\t\t\t</div>\n\t\t\t<div class="audio__text-block df">\n\t\t\t\t<h4 class="audio__title">${e.trackName}</h4>\n\t\t\t\t<div class="audio__text">\n\t\t\t\t\t<p class="audio__text-line audio__text-line_1">${n}</p>\n\t\t\t\t\t<p class="audio__text-line audio__text-line_2"><span class="icon-bpm"></span> ${i[0]} <span class="icon-music-key"></span> ${i[1]}</p>\n\t\t\t\t</div>\n\t\t\t\t<div class="audio__link-block">\n\t\t\t\t\t<a class="audio__link" href="store/?open-popup=${t}" target="_blank">Get It</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</audio>`),
+        // ).innerHTML += "<div></div>"),
         r++;
 }),
     jQuery(document).ready(function () {
